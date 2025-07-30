@@ -1,0 +1,1056 @@
+2025-07-29 19:05:59,843 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 19:05:59,856 - services.ai_manager - INFO - ✅ OpenAI inicializado com sucesso
+2025-07-29 19:05:59,857 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 19:05:59,857 - services.ai_manager - INFO - AI Manager inicializado com 3 provedores disponíveis
+2025-07-29 19:05:59,992 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 19:05:59,992 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, serper, bing, duckduckgo
+2025-07-29 19:05:59,996 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 19:06:00,007 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 19:06:00,007 - services.search_manager - INFO - ✅ Serper API disponível
+2025-07-29 19:06:00,007 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 19:06:00,008 - services.search_manager - INFO - Search Manager inicializado com 4 provedores disponíveis
+2025-07-29 19:06:00,016 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 19:06:00,022 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 19:06:00,022 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 19:06:00,023 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 19:06:00,623 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 19:06:00,632 - __main__ - INFO - 🚀 Iniciando ARQV30 Enhanced v2.0 em MODO PRODUÇÃO
+2025-07-29 19:06:00,633 - __main__ - INFO - 🔒 Debug desabilitado, headers de segurança habilitados
+2025-07-29 19:06:00,633 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 19:06:00,633 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 19:06:00,633 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 19:06:00,634 - __main__ - ERROR - Erro ao iniciar aplicação: '>' not supported between instances of 'NoneType' and 'float'
+2025-07-29 19:06:00,635 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\user\Desktop\project-bolt-github-sdjezidm\project\src\run.py", line 310, in main
+    search_status = production_search_manager.get_provider_status()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\project-bolt-github-sdjezidm\project\src\services\production_search_manager.py", line 835, in get_provider_status
+    'rate_limited': config.get('quota_reset', 0) > time.time(),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'float'
+
+2025-07-29 19:06:00,635 - __main__ - INFO - 🧹 Executando limpeza final...
+2025-07-29 19:06:00,648 - services.production_content_extractor - INFO - 🗑️ Cache de conteúdo limpo
+2025-07-29 20:15:55,722 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 20:15:55,736 - services.ai_manager - INFO - ✅ OpenAI inicializado com sucesso
+2025-07-29 20:15:55,736 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 20:15:55,736 - services.ai_manager - INFO - AI Manager inicializado com 3 provedores disponíveis
+2025-07-29 20:15:55,823 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 20:15:55,824 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, serper, bing, duckduckgo
+2025-07-29 20:15:55,825 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 20:15:55,827 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 20:15:55,827 - services.search_manager - INFO - ✅ Serper API disponível
+2025-07-29 20:15:55,827 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 20:15:55,827 - services.search_manager - INFO - Search Manager inicializado com 4 provedores disponíveis
+2025-07-29 20:15:55,828 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 20:15:55,829 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 20:15:55,829 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 20:15:55,829 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 20:15:56,371 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 20:15:56,380 - __main__ - INFO - 🚀 Iniciando ARQV30 Enhanced v2.0 em MODO PRODUÇÃO
+2025-07-29 20:15:56,380 - __main__ - INFO - 🔒 Debug desabilitado, headers de segurança habilitados
+2025-07-29 20:15:56,380 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 20:15:56,381 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 20:15:56,381 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 20:15:56,381 - __main__ - ERROR - Erro ao iniciar aplicação: '>' not supported between instances of 'NoneType' and 'float'
+2025-07-29 20:15:56,382 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\user\Desktop\project-bolt-github-sdjezidm\project\src\run.py", line 310, in main
+    search_status = production_search_manager.get_provider_status()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\project-bolt-github-sdjezidm\project\src\services\production_search_manager.py", line 835, in get_provider_status
+    'rate_limited': config.get('quota_reset', 0) > time.time(),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'float'
+
+2025-07-29 20:15:56,383 - __main__ - INFO - 🧹 Executando limpeza final...
+2025-07-29 20:15:56,395 - services.production_content_extractor - INFO - 🗑️ Cache de conteúdo limpo
+2025-07-29 20:46:43,187 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 20:46:43,187 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 20:46:43,188 - services.ai_manager - INFO - AI Manager inicializado com 2 provedores disponíveis
+2025-07-29 20:46:43,279 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 20:46:43,279 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, bing, duckduckgo
+2025-07-29 20:46:43,280 - services.production_search_manager - WARNING - ⚠️ Provedor serper desabilitado
+2025-07-29 20:46:43,284 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 20:46:43,294 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 20:46:43,294 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 20:46:43,294 - services.search_manager - INFO - Search Manager inicializado com 3 provedores disponíveis
+2025-07-29 20:46:43,300 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 20:46:43,306 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 20:46:43,306 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 20:46:43,307 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 20:46:43,729 - database - INFO - ✅ DatabaseManager inicializado com Supabase
+2025-07-29 20:46:43,872 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 20:46:43,881 - __main__ - INFO - 🔧 Iniciando ARQV30 Enhanced v2.0 em MODO DESENVOLVIMENTO
+2025-07-29 20:46:43,881 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 20:46:43,881 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 20:46:43,882 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 20:46:43,882 - __main__ - INFO - 🔍 Provedores de busca ativos: google, bing, duckduckgo
+2025-07-29 20:46:43,893 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.5:5000
+2025-07-29 20:46:43,893 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-29 20:46:43,895 - werkzeug - INFO -  * Restarting with stat
+2025-07-29 20:46:44,683 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 20:46:44,683 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 20:46:44,684 - services.ai_manager - INFO - AI Manager inicializado com 2 provedores disponíveis
+2025-07-29 20:46:44,769 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 20:46:44,770 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, bing, duckduckgo
+2025-07-29 20:46:44,770 - services.production_search_manager - WARNING - ⚠️ Provedor serper desabilitado
+2025-07-29 20:46:44,771 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 20:46:44,772 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 20:46:44,772 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 20:46:44,773 - services.search_manager - INFO - Search Manager inicializado com 3 provedores disponíveis
+2025-07-29 20:46:44,774 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 20:46:44,774 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 20:46:44,774 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 20:46:44,775 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 20:46:45,181 - database - INFO - ✅ DatabaseManager inicializado com Supabase
+2025-07-29 20:46:45,302 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 20:46:45,311 - __main__ - INFO - 🔧 Iniciando ARQV30 Enhanced v2.0 em MODO DESENVOLVIMENTO
+2025-07-29 20:46:45,311 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 20:46:45,311 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 20:46:45,311 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 20:46:45,312 - __main__ - INFO - 🔍 Provedores de busca ativos: google, bing, duckduckgo
+2025-07-29 20:46:45,316 - werkzeug - WARNING -  * Debugger is active!
+2025-07-29 20:46:45,320 - werkzeug - INFO -  * Debugger PIN: 508-403-215
+2025-07-29 20:46:51,943 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:46:51] "GET / HTTP/1.1" 200 -
+2025-07-29 20:46:52,054 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:46:52] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-07-29 20:46:52,190 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:46:52] "GET /static/css/components.css HTTP/1.1" 200 -
+2025-07-29 20:46:52,267 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:46:52] "GET /static/images/logo.png HTTP/1.1" 200 -
+2025-07-29 20:46:52,267 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:46:52] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-07-29 20:46:52,268 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:46:52] "GET /static/js/upload.js HTTP/1.1" 200 -
+2025-07-29 20:46:52,273 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:46:52] "GET /static/js/analysis.js HTTP/1.1" 200 -
+2025-07-29 20:47:04,388 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:47:04] "GET /?segmento=cursos+telemedicina&produto=telemedicina&preco=997&publico=&objetivo_receita=&orcamento_marketing=&prazo_lancamento=&concorrentes=&query=mercado+brasileiro+desde+2021&dados_adicionais= HTTP/1.1" 200 -
+2025-07-29 20:47:04,401 - routes.analysis - INFO - 🚀 Iniciando análise para segmento: cursos telemedicina
+2025-07-29 20:47:04,402 - services.enhanced_analysis_engine - INFO - 🚀 Iniciando análise abrangente para cursos telemedicina
+2025-07-29 20:47:04,402 - services.enhanced_analysis_engine - INFO - 📊 FASE 1: Coleta de dados...
+2025-07-29 20:47:04,402 - services.enhanced_analysis_engine - INFO - 🚀 Ativando motor de análise GIGANTE...
+2025-07-29 20:47:04,403 - services.ultra_detailed_analysis_engine - INFO - 🚀 INICIANDO ANÁLISE GIGANTE ULTRA-DETALHADA
+2025-07-29 20:47:04,403 - services.ultra_detailed_analysis_engine - INFO - 📊 Coletando dados massivos...
+2025-07-29 20:47:04,404 - services.ultra_detailed_analysis_engine - INFO - 🌐 Executando pesquisa web ultra-profunda...
+2025-07-29 20:47:04,404 - services.search_manager - INFO - 🔍 Buscando em google...
+2025-07-29 20:47:04,620 - services.search_manager - WARNING - ⚠️ Erro em google: Google API retornou status 400
+2025-07-29 20:47:04,622 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 20:47:05,288 - services.search_manager - INFO - ✅ Bing Search: 9 resultados
+2025-07-29 20:47:06,290 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 20:47:06,495 - services.search_manager - INFO - ✅ DuckDuckGo Search: 0 resultados
+2025-07-29 20:47:07,498 - services.search_manager - INFO - ✅ Multi-search: 9 resultados únicos de 9 totais
+2025-07-29 20:47:07,498 - services.search_manager - INFO - 🔍 Buscando em google...
+2025-07-29 20:47:07,672 - services.search_manager - WARNING - ⚠️ Erro em google: Google API retornou status 400
+2025-07-29 20:47:07,673 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 20:47:08,319 - services.search_manager - INFO - ✅ Bing Search: 9 resultados
+2025-07-29 20:47:09,322 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 20:47:09,556 - services.search_manager - INFO - ✅ DuckDuckGo Search: 0 resultados
+2025-07-29 20:47:10,559 - services.search_manager - INFO - ✅ Multi-search: 9 resultados únicos de 9 totais
+2025-07-29 20:47:10,559 - services.search_manager - INFO - 🔍 Buscando em google...
+2025-07-29 20:47:10,728 - services.search_manager - WARNING - ⚠️ Erro em google: Google API retornou status 400
+2025-07-29 20:47:10,730 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 20:47:11,488 - services.search_manager - INFO - ✅ Bing Search: 9 resultados
+2025-07-29 20:47:12,491 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 20:47:12,603 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202
+2025-07-29 20:47:13,605 - services.search_manager - INFO - ✅ Multi-search: 9 resultados únicos de 9 totais
+2025-07-29 20:47:13,605 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 20:47:14,306 - services.search_manager - INFO - ✅ Bing Search: 8 resultados
+2025-07-29 20:47:15,309 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 20:47:15,421 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202
+2025-07-29 20:47:16,423 - services.search_manager - INFO - ✅ Multi-search: 8 resultados únicos de 8 totais
+2025-07-29 20:47:16,424 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 20:47:17,144 - services.search_manager - INFO - ✅ Bing Search: 8 resultados
+2025-07-29 20:47:18,147 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 20:47:18,255 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202
+2025-07-29 20:47:19,258 - services.search_manager - INFO - ✅ Multi-search: 8 resultados únicos de 8 totais
+2025-07-29 20:47:19,258 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 20:47:19,915 - services.search_manager - INFO - ✅ Bing Search: 10 resultados
+2025-07-29 20:47:20,918 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 20:47:21,050 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202
+2025-07-29 20:47:22,051 - services.search_manager - INFO - ✅ Multi-search: 10 resultados únicos de 10 totais
+2025-07-29 20:47:22,051 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 20:47:22,714 - services.search_manager - INFO - ✅ Bing Search: 8 resultados
+2025-07-29 20:47:23,717 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 20:47:23,817 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202
+2025-07-29 20:47:24,819 - services.search_manager - INFO - ✅ Multi-search: 8 resultados únicos de 8 totais
+2025-07-29 20:47:24,819 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 20:47:25,465 - services.search_manager - INFO - ✅ Bing Search: 10 resultados
+2025-07-29 20:47:26,467 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 20:47:26,604 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202
+2025-07-29 20:47:27,605 - services.search_manager - INFO - ✅ Multi-search: 10 resultados únicos de 10 totais
+2025-07-29 20:47:27,605 - services.ultra_detailed_analysis_engine - INFO - 🧠 Executando análise ultra-profunda...
+2025-07-29 20:47:27,605 - services.ai_manager - INFO - 🤖 Usando provedor: gemini
+2025-07-29 20:47:48,880 - services.ai_manager - INFO - ✅ Gemini gerou 8312 caracteres
+2025-07-29 20:47:48,881 - services.mental_drivers_architect - INFO - 🧠 Gerando sistema completo de drivers mentais...
+2025-07-29 20:47:48,881 - services.future_prediction_engine - INFO - 🔮 Predizendo futuro do mercado cursos telemedicina para 60 meses
+2025-07-29 20:47:48,881 - services.ultra_detailed_analysis_engine - INFO - ✅ ANÁLISE GIGANTE CONCLUÍDA - Relatório de predição do futuro gerado
+2025-07-29 20:47:48,882 - services.enhanced_analysis_engine - INFO - 🧠 Gerando drivers mentais customizados...
+2025-07-29 20:47:48,882 - services.mental_drivers_architect - INFO - 🧠 Gerando sistema completo de drivers mentais...
+2025-07-29 20:47:48,882 - services.enhanced_analysis_engine - INFO - 🔮 Gerando predições do futuro...
+2025-07-29 20:47:48,882 - services.future_prediction_engine - INFO - 🔮 Predizendo futuro do mercado cursos telemedicina para 60 meses
+2025-07-29 20:47:48,883 - services.enhanced_analysis_engine - INFO - ✅ Análise abrangente concluída em 44.48 segundos
+2025-07-29 20:47:48,962 - database - ERROR - Erro ao criar análise: Illegal header value b'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhhb2pncW1rdHZ4c21pcnl6dXdxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTM2OTA1NjQsImV4cCI6MjA2OTI2NjU2NH0.KMUKDF2XBfJOyNpKTim26Ie1Yr3T00vzIn2zBKR9c6Y\n'
+2025-07-29 20:47:48,962 - routes.analysis - INFO - ✅ Análise concluída em 44.56 segundos
+2025-07-29 20:47:48,973 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:47:48] "POST /api/analyze HTTP/1.1" 200 -
+2025-07-29 20:48:07,953 - routes.analysis - INFO - 🚀 Iniciando análise para segmento: cursos telemedicina
+2025-07-29 20:48:07,954 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:48:07] "GET /?segmento=cursos+telemedicina&produto=&preco=&publico=&objetivo_receita=&orcamento_marketing=&prazo_lancamento=&concorrentes=&query=&dados_adicionais= HTTP/1.1" 200 -
+2025-07-29 20:48:07,954 - services.enhanced_analysis_engine - INFO - 🚀 Iniciando análise abrangente para cursos telemedicina
+2025-07-29 20:48:07,958 - services.enhanced_analysis_engine - INFO - 📊 FASE 1: Coleta de dados...
+2025-07-29 20:48:07,958 - services.enhanced_analysis_engine - INFO - 🚀 Ativando motor de análise GIGANTE...
+2025-07-29 20:48:07,959 - services.ultra_detailed_analysis_engine - INFO - 🚀 INICIANDO ANÁLISE GIGANTE ULTRA-DETALHADA
+2025-07-29 20:48:07,959 - services.ultra_detailed_analysis_engine - INFO - 📊 Coletando dados massivos...
+2025-07-29 20:48:07,960 - services.ultra_detailed_analysis_engine - INFO - 🧠 Executando análise ultra-profunda...
+2025-07-29 20:48:07,960 - services.ai_manager - INFO - 🤖 Usando provedor: gemini
+2025-07-29 20:48:25,501 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 20:48:25,501 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 20:48:25,502 - services.ai_manager - INFO - AI Manager inicializado com 2 provedores disponíveis
+2025-07-29 20:48:25,588 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 20:48:25,588 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, bing, duckduckgo
+2025-07-29 20:48:25,589 - services.production_search_manager - WARNING - ⚠️ Provedor serper desabilitado
+2025-07-29 20:48:25,590 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 20:48:25,591 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 20:48:25,591 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 20:48:25,591 - services.search_manager - INFO - Search Manager inicializado com 3 provedores disponíveis
+2025-07-29 20:48:25,592 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 20:48:25,593 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 20:48:25,593 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 20:48:25,593 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 20:48:26,004 - database - INFO - ✅ DatabaseManager inicializado com Supabase
+2025-07-29 20:48:26,126 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 20:48:26,134 - __main__ - INFO - 🔧 Iniciando ARQV30 Enhanced v2.0 em MODO DESENVOLVIMENTO
+2025-07-29 20:48:26,134 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 20:48:26,135 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 20:48:26,135 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 20:48:26,135 - __main__ - INFO - 🔍 Provedores de busca ativos: google, bing, duckduckgo
+2025-07-29 20:48:26,147 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.5:5000
+2025-07-29 20:48:26,147 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-29 20:48:26,148 - werkzeug - INFO -  * Restarting with stat
+2025-07-29 20:48:26,933 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 20:48:26,934 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 20:48:26,935 - services.ai_manager - INFO - AI Manager inicializado com 2 provedores disponíveis
+2025-07-29 20:48:27,019 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 20:48:27,020 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, bing, duckduckgo
+2025-07-29 20:48:27,020 - services.production_search_manager - WARNING - ⚠️ Provedor serper desabilitado
+2025-07-29 20:48:27,021 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 20:48:27,023 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 20:48:27,023 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 20:48:27,023 - services.search_manager - INFO - Search Manager inicializado com 3 provedores disponíveis
+2025-07-29 20:48:27,024 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 20:48:27,025 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 20:48:27,025 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 20:48:27,025 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 20:48:27,431 - database - INFO - ✅ DatabaseManager inicializado com Supabase
+2025-07-29 20:48:27,557 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 20:48:27,566 - __main__ - INFO - 🔧 Iniciando ARQV30 Enhanced v2.0 em MODO DESENVOLVIMENTO
+2025-07-29 20:48:27,566 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 20:48:27,566 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 20:48:27,567 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 20:48:27,571 - __main__ - INFO - 🔍 Provedores de busca ativos: google, bing, duckduckgo
+2025-07-29 20:48:27,576 - werkzeug - WARNING -  * Debugger is active!
+2025-07-29 20:48:27,580 - werkzeug - INFO -  * Debugger PIN: 508-403-215
+2025-07-29 20:50:01,857 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 20:50:01,857 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 20:50:01,858 - services.ai_manager - INFO - AI Manager inicializado com 2 provedores disponíveis
+2025-07-29 20:50:01,942 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 20:50:01,942 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, bing, duckduckgo
+2025-07-29 20:50:01,943 - services.production_search_manager - WARNING - ⚠️ Provedor serper desabilitado
+2025-07-29 20:50:01,944 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 20:50:01,945 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 20:50:01,945 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 20:50:01,945 - services.search_manager - INFO - Search Manager inicializado com 3 provedores disponíveis
+2025-07-29 20:50:01,946 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 20:50:01,947 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 20:50:01,947 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 20:50:01,947 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 20:50:02,354 - database - INFO - ✅ DatabaseManager inicializado com Supabase
+2025-07-29 20:50:02,475 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 20:50:02,484 - __main__ - INFO - 🔧 Iniciando ARQV30 Enhanced v2.0 em MODO DESENVOLVIMENTO
+2025-07-29 20:50:02,484 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 20:50:02,484 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 20:50:02,484 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 20:50:02,485 - __main__ - INFO - 🔍 Provedores de busca ativos: google, bing, duckduckgo
+2025-07-29 20:50:02,496 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.5:5000
+2025-07-29 20:50:02,496 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-29 20:50:02,497 - werkzeug - INFO -  * Restarting with stat
+2025-07-29 20:50:03,275 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 20:50:03,275 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 20:50:03,276 - services.ai_manager - INFO - AI Manager inicializado com 2 provedores disponíveis
+2025-07-29 20:50:03,360 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 20:50:03,360 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, bing, duckduckgo
+2025-07-29 20:50:03,361 - services.production_search_manager - WARNING - ⚠️ Provedor serper desabilitado
+2025-07-29 20:50:03,361 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 20:50:03,362 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 20:50:03,363 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 20:50:03,363 - services.search_manager - INFO - Search Manager inicializado com 3 provedores disponíveis
+2025-07-29 20:50:03,363 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 20:50:03,364 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 20:50:03,364 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 20:50:03,364 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 20:50:03,768 - database - INFO - ✅ DatabaseManager inicializado com Supabase
+2025-07-29 20:50:03,888 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 20:50:03,896 - __main__ - INFO - 🔧 Iniciando ARQV30 Enhanced v2.0 em MODO DESENVOLVIMENTO
+2025-07-29 20:50:03,896 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 20:50:03,897 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 20:50:03,897 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 20:50:03,897 - __main__ - INFO - 🔍 Provedores de busca ativos: google, bing, duckduckgo
+2025-07-29 20:50:03,902 - werkzeug - WARNING -  * Debugger is active!
+2025-07-29 20:50:03,906 - werkzeug - INFO -  * Debugger PIN: 508-403-215
+2025-07-29 20:50:07,548 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:50:07] "GET / HTTP/1.1" 200 -
+2025-07-29 20:50:13,331 - routes.analysis - INFO - 🚀 Iniciando análise para segmento: cursos telemedicina
+2025-07-29 20:50:13,331 - services.enhanced_analysis_engine - INFO - 🚀 Iniciando análise abrangente para cursos telemedicina
+2025-07-29 20:50:13,332 - services.enhanced_analysis_engine - INFO - 📊 FASE 1: Coleta de dados...
+2025-07-29 20:50:13,333 - services.enhanced_analysis_engine - INFO - 🚀 Ativando motor de análise GIGANTE...
+2025-07-29 20:50:13,334 - services.ultra_detailed_analysis_engine - INFO - 🚀 INICIANDO ANÁLISE GIGANTE ULTRA-DETALHADA
+2025-07-29 20:50:13,334 - services.ultra_detailed_analysis_engine - INFO - 📊 Coletando dados massivos...
+2025-07-29 20:50:13,334 - services.ultra_detailed_analysis_engine - INFO - 🧠 Executando análise ultra-profunda...
+2025-07-29 20:50:13,335 - services.ai_manager - INFO - 🤖 Usando provedor: gemini
+2025-07-29 20:50:13,345 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:50:13] "GET /?segmento=cursos+telemedicina&produto=&preco=&publico=&objetivo_receita=&orcamento_marketing=&prazo_lancamento=&concorrentes=&query=&dados_adicionais= HTTP/1.1" 200 -
+2025-07-29 20:51:21,589 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 20:51:21,589 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 20:51:21,591 - services.ai_manager - INFO - AI Manager inicializado com 2 provedores disponíveis
+2025-07-29 20:51:21,674 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 20:51:21,674 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, bing, duckduckgo
+2025-07-29 20:51:21,675 - services.production_search_manager - WARNING - ⚠️ Provedor serper desabilitado
+2025-07-29 20:51:21,676 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 20:51:21,677 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 20:51:21,677 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 20:51:21,677 - services.search_manager - INFO - Search Manager inicializado com 3 provedores disponíveis
+2025-07-29 20:51:21,678 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 20:51:21,679 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 20:51:21,679 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 20:51:21,679 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 20:51:22,090 - database - INFO - ✅ DatabaseManager inicializado com Supabase
+2025-07-29 20:51:22,210 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 20:51:22,218 - __main__ - INFO - 🔧 Iniciando ARQV30 Enhanced v2.0 em MODO DESENVOLVIMENTO
+2025-07-29 20:51:22,218 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 20:51:22,219 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 20:51:22,219 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 20:51:22,219 - __main__ - INFO - 🔍 Provedores de busca ativos: google, bing, duckduckgo
+2025-07-29 20:51:22,231 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.5:5000
+2025-07-29 20:51:22,231 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-29 20:51:22,232 - werkzeug - INFO -  * Restarting with stat
+2025-07-29 20:51:23,024 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 20:51:23,025 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 20:51:23,025 - services.ai_manager - INFO - AI Manager inicializado com 2 provedores disponíveis
+2025-07-29 20:51:23,109 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 20:51:23,109 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, bing, duckduckgo
+2025-07-29 20:51:23,109 - services.production_search_manager - WARNING - ⚠️ Provedor serper desabilitado
+2025-07-29 20:51:23,110 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 20:51:23,111 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 20:51:23,111 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 20:51:23,111 - services.search_manager - INFO - Search Manager inicializado com 3 provedores disponíveis
+2025-07-29 20:51:23,112 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 20:51:23,112 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 20:51:23,112 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 20:51:23,113 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 20:51:23,518 - database - INFO - ✅ DatabaseManager inicializado com Supabase
+2025-07-29 20:51:23,637 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 20:51:23,645 - __main__ - INFO - 🔧 Iniciando ARQV30 Enhanced v2.0 em MODO DESENVOLVIMENTO
+2025-07-29 20:51:23,645 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 20:51:23,645 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 20:51:23,645 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 20:51:23,645 - __main__ - INFO - 🔍 Provedores de busca ativos: google, bing, duckduckgo
+2025-07-29 20:51:23,650 - werkzeug - WARNING -  * Debugger is active!
+2025-07-29 20:51:23,654 - werkzeug - INFO -  * Debugger PIN: 508-403-215
+2025-07-29 20:51:28,814 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:51:28] "GET / HTTP/1.1" 200 -
+2025-07-29 20:51:34,000 - routes.analysis - INFO - 🚀 Iniciando análise para segmento: cursos telemedicina
+2025-07-29 20:51:34,000 - services.enhanced_analysis_engine - INFO - 🚀 Iniciando análise abrangente para cursos telemedicina
+2025-07-29 20:51:34,003 - services.enhanced_analysis_engine - INFO - 📊 FASE 1: Coleta de dados...
+2025-07-29 20:51:34,004 - services.enhanced_analysis_engine - INFO - 🚀 Ativando motor de análise GIGANTE...
+2025-07-29 20:51:34,005 - services.ultra_detailed_analysis_engine - INFO - 🚀 INICIANDO ANÁLISE GIGANTE ULTRA-DETALHADA
+2025-07-29 20:51:34,005 - services.ultra_detailed_analysis_engine - INFO - 📊 Coletando dados massivos...
+2025-07-29 20:51:34,006 - services.ultra_detailed_analysis_engine - INFO - 🧠 Executando análise ultra-profunda...
+2025-07-29 20:51:34,006 - services.ai_manager - INFO - 🤖 Usando provedor: gemini
+2025-07-29 20:51:34,016 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:51:34] "GET /?segmento=cursos+telemedicina&produto=&preco=&publico=&objetivo_receita=&orcamento_marketing=&prazo_lancamento=&concorrentes=&query=&dados_adicionais= HTTP/1.1" 200 -
+2025-07-29 20:51:40,624 - services.ai_manager - INFO - ✅ Gemini gerou 3077 caracteres
+2025-07-29 20:51:40,624 - services.mental_drivers_architect - INFO - 🧠 Gerando sistema completo de drivers mentais...
+2025-07-29 20:51:40,626 - services.future_prediction_engine - INFO - 🔮 Predizendo futuro do mercado cursos telemedicina para 60 meses
+2025-07-29 20:51:40,631 - services.enhanced_analysis_engine - ERROR - ❌ Erro na análise abrangente: could not convert string to float: ''
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\enhanced_analysis_engine.py", line 53, in generate_comprehensive_analysis
+    gigantic_analysis = ultra_detailed_analysis_engine.generate_gigantic_analysis(data, session_id)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\ultra_detailed_analysis_engine.py", line 58, in generate_gigantic_analysis
+    gigantic_report = self._consolidate_gigantic_report(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\ultra_detailed_analysis_engine.py", line 684, in _consolidate_gigantic_report
+    "analise_roi_ultra_detalhada": self._create_ultra_detailed_roi_analysis(data),
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\ultra_detailed_analysis_engine.py", line 1023, in _create_ultra_detailed_roi_analysis
+    preco = float(data.get('preco', 997))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+2025-07-29 20:51:40,633 - services.enhanced_analysis_engine - ERROR - Gerando análise de emergência devido a: could not convert string to float: ''
+2025-07-29 20:51:40,634 - routes.analysis - ERROR - ❌ Erro na análise: name 'search_manager' is not defined
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\enhanced_analysis_engine.py", line 53, in generate_comprehensive_analysis
+    gigantic_analysis = ultra_detailed_analysis_engine.generate_gigantic_analysis(data, session_id)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\ultra_detailed_analysis_engine.py", line 58, in generate_gigantic_analysis
+    gigantic_report = self._consolidate_gigantic_report(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\ultra_detailed_analysis_engine.py", line 684, in _consolidate_gigantic_report
+    "analise_roi_ultra_detalhada": self._create_ultra_detailed_roi_analysis(data),
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\ultra_detailed_analysis_engine.py", line 1023, in _create_ultra_detailed_roi_analysis
+    preco = float(data.get('preco', 997))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\routes\analysis.py", line 49, in analyze_market
+    analysis_result = enhanced_analysis_engine.generate_comprehensive_analysis(data, session_id)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\enhanced_analysis_engine.py", line 98, in generate_comprehensive_analysis
+    return self._generate_fallback_analysis(data, str(e))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\enhanced_analysis_engine.py", line 985, in _generate_fallback_analysis
+    "search_providers": search_manager.get_provider_status()
+                        ^^^^^^^^^^^^^^
+NameError: name 'search_manager' is not defined
+2025-07-29 20:51:40,636 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:51:40] "[35m[1mPOST /api/analyze HTTP/1.1[0m" 500 -
+2025-07-29 20:52:02,082 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 20:52:02,082 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 20:52:02,083 - services.ai_manager - INFO - AI Manager inicializado com 2 provedores disponíveis
+2025-07-29 20:52:02,168 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 20:52:02,168 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, bing, duckduckgo
+2025-07-29 20:52:02,169 - services.production_search_manager - WARNING - ⚠️ Provedor serper desabilitado
+2025-07-29 20:52:02,170 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 20:52:02,172 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 20:52:02,172 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 20:52:02,172 - services.search_manager - INFO - Search Manager inicializado com 3 provedores disponíveis
+2025-07-29 20:52:02,173 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 20:52:02,174 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 20:52:02,174 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 20:52:02,174 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 20:52:02,581 - database - INFO - ✅ DatabaseManager inicializado com Supabase
+2025-07-29 20:52:02,700 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 20:52:02,708 - __main__ - INFO - 🔧 Iniciando ARQV30 Enhanced v2.0 em MODO DESENVOLVIMENTO
+2025-07-29 20:52:02,708 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 20:52:02,708 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 20:52:02,709 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 20:52:02,709 - __main__ - INFO - 🔍 Provedores de busca ativos: google, bing, duckduckgo
+2025-07-29 20:52:02,720 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.5:5000
+2025-07-29 20:52:02,720 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-29 20:52:02,721 - werkzeug - INFO -  * Restarting with stat
+2025-07-29 20:52:03,500 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 20:52:03,500 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 20:52:03,501 - services.ai_manager - INFO - AI Manager inicializado com 2 provedores disponíveis
+2025-07-29 20:52:03,583 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 20:52:03,583 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, bing, duckduckgo
+2025-07-29 20:52:03,584 - services.production_search_manager - WARNING - ⚠️ Provedor serper desabilitado
+2025-07-29 20:52:03,585 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 20:52:03,586 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 20:52:03,586 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 20:52:03,587 - services.search_manager - INFO - Search Manager inicializado com 3 provedores disponíveis
+2025-07-29 20:52:03,587 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 20:52:03,588 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 20:52:03,588 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 20:52:03,589 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 20:52:03,991 - database - INFO - ✅ DatabaseManager inicializado com Supabase
+2025-07-29 20:52:04,111 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 20:52:04,119 - __main__ - INFO - 🔧 Iniciando ARQV30 Enhanced v2.0 em MODO DESENVOLVIMENTO
+2025-07-29 20:52:04,120 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 20:52:04,120 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 20:52:04,120 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 20:52:04,121 - __main__ - INFO - 🔍 Provedores de busca ativos: google, bing, duckduckgo
+2025-07-29 20:52:04,125 - werkzeug - WARNING -  * Debugger is active!
+2025-07-29 20:52:04,129 - werkzeug - INFO -  * Debugger PIN: 508-403-215
+2025-07-29 20:52:07,827 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:52:07] "GET /?segmento=cursos+telemedicina&produto=&preco=&publico=&objetivo_receita=&orcamento_marketing=&prazo_lancamento=&concorrentes=&query=&dados_adicionais= HTTP/1.1" 200 -
+2025-07-29 20:52:07,915 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:52:07] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+2025-07-29 20:52:12,232 - routes.analysis - INFO - 🚀 Iniciando análise para segmento: cursos telemedicina
+2025-07-29 20:52:12,232 - services.enhanced_analysis_engine - INFO - 🚀 Iniciando análise abrangente para cursos telemedicina
+2025-07-29 20:52:12,233 - services.enhanced_analysis_engine - INFO - 📊 FASE 1: Coleta de dados...
+2025-07-29 20:52:12,233 - services.enhanced_analysis_engine - INFO - 🚀 Ativando motor de análise GIGANTE...
+2025-07-29 20:52:12,233 - services.ultra_detailed_analysis_engine - INFO - 🚀 INICIANDO ANÁLISE GIGANTE ULTRA-DETALHADA
+2025-07-29 20:52:12,233 - services.ultra_detailed_analysis_engine - INFO - 📊 Coletando dados massivos...
+2025-07-29 20:52:12,233 - services.ultra_detailed_analysis_engine - INFO - 🧠 Executando análise ultra-profunda...
+2025-07-29 20:52:12,233 - services.ai_manager - INFO - 🤖 Usando provedor: gemini
+2025-07-29 20:52:12,549 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:52:12] "GET /?segmento=cursos+telemedicina&produto=&preco=&publico=&objetivo_receita=&orcamento_marketing=&prazo_lancamento=&concorrentes=&query=&dados_adicionais= HTTP/1.1" 200 -
+2025-07-29 20:52:16,698 - services.ai_manager - INFO - ✅ Gemini gerou 1948 caracteres
+2025-07-29 20:52:16,699 - services.mental_drivers_architect - INFO - 🧠 Gerando sistema completo de drivers mentais...
+2025-07-29 20:52:16,700 - services.future_prediction_engine - INFO - 🔮 Predizendo futuro do mercado cursos telemedicina para 60 meses
+2025-07-29 20:52:16,700 - services.enhanced_analysis_engine - ERROR - ❌ Erro na análise abrangente: could not convert string to float: ''
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\enhanced_analysis_engine.py", line 53, in generate_comprehensive_analysis
+    gigantic_analysis = ultra_detailed_analysis_engine.generate_gigantic_analysis(data, session_id)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\ultra_detailed_analysis_engine.py", line 58, in generate_gigantic_analysis
+    gigantic_report = self._consolidate_gigantic_report(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\ultra_detailed_analysis_engine.py", line 684, in _consolidate_gigantic_report
+    "analise_roi_ultra_detalhada": self._create_ultra_detailed_roi_analysis(data),
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\ultra_detailed_analysis_engine.py", line 1023, in _create_ultra_detailed_roi_analysis
+    preco = float(data.get('preco', 997))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+2025-07-29 20:52:16,702 - services.enhanced_analysis_engine - ERROR - Gerando análise de emergência devido a: could not convert string to float: ''
+2025-07-29 20:52:16,703 - routes.analysis - ERROR - ❌ Erro na análise: name 'search_manager' is not defined
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\enhanced_analysis_engine.py", line 53, in generate_comprehensive_analysis
+    gigantic_analysis = ultra_detailed_analysis_engine.generate_gigantic_analysis(data, session_id)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\ultra_detailed_analysis_engine.py", line 58, in generate_gigantic_analysis
+    gigantic_report = self._consolidate_gigantic_report(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\ultra_detailed_analysis_engine.py", line 684, in _consolidate_gigantic_report
+    "analise_roi_ultra_detalhada": self._create_ultra_detailed_roi_analysis(data),
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\ultra_detailed_analysis_engine.py", line 1023, in _create_ultra_detailed_roi_analysis
+    preco = float(data.get('preco', 997))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\routes\analysis.py", line 49, in analyze_market
+    analysis_result = enhanced_analysis_engine.generate_comprehensive_analysis(data, session_id)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\enhanced_analysis_engine.py", line 98, in generate_comprehensive_analysis
+    return self._generate_fallback_analysis(data, str(e))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\project\src\services\enhanced_analysis_engine.py", line 985, in _generate_fallback_analysis
+    "search_providers": search_manager.get_provider_status()
+                        ^^^^^^^^^^^^^^
+NameError: name 'search_manager' is not defined
+2025-07-29 20:52:16,705 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:52:16] "[35m[1mPOST /api/analyze HTTP/1.1[0m" 500 -
+2025-07-29 20:55:41,972 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 20:55:41,972 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 20:55:41,972 - services.ai_manager - INFO - AI Manager inicializado com 2 provedores disponíveis
+2025-07-29 20:55:42,081 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 20:55:42,081 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, bing, duckduckgo
+2025-07-29 20:55:42,081 - services.production_search_manager - WARNING - ⚠️ Provedor serper desabilitado
+2025-07-29 20:55:42,081 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 20:55:42,097 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 20:55:42,097 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 20:55:42,097 - services.search_manager - INFO - Search Manager inicializado com 3 provedores disponíveis
+2025-07-29 20:55:42,097 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 20:55:42,112 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 20:55:42,112 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 20:55:42,112 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 20:55:42,576 - database - INFO - ✅ DatabaseManager inicializado com Supabase
+2025-07-29 20:55:42,717 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 20:55:42,732 - __main__ - INFO - 🔧 Iniciando ARQV30 Enhanced v2.0 em MODO DESENVOLVIMENTO
+2025-07-29 20:55:42,732 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 20:55:42,732 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 20:55:42,732 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 20:55:42,732 - __main__ - INFO - 🔍 Provedores de busca ativos: google, bing, duckduckgo
+2025-07-29 20:55:42,748 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.5:5000
+2025-07-29 20:55:42,748 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-29 20:55:42,748 - werkzeug - INFO -  * Restarting with stat
+2025-07-29 20:55:43,592 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 20:55:43,592 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 20:55:43,592 - services.ai_manager - INFO - AI Manager inicializado com 2 provedores disponíveis
+2025-07-29 20:55:43,670 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 20:55:43,670 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, bing, duckduckgo
+2025-07-29 20:55:43,670 - services.production_search_manager - WARNING - ⚠️ Provedor serper desabilitado
+2025-07-29 20:55:43,685 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 20:55:43,685 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 20:55:43,685 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 20:55:43,685 - services.search_manager - INFO - Search Manager inicializado com 3 provedores disponíveis
+2025-07-29 20:55:43,685 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 20:55:43,685 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 20:55:43,685 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 20:55:43,685 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 20:55:44,123 - database - INFO - ✅ DatabaseManager inicializado com Supabase
+2025-07-29 20:55:44,252 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 20:55:44,252 - __main__ - INFO - 🔧 Iniciando ARQV30 Enhanced v2.0 em MODO DESENVOLVIMENTO
+2025-07-29 20:55:44,252 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 20:55:44,252 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 20:55:44,252 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 20:55:44,252 - __main__ - INFO - 🔍 Provedores de busca ativos: google, bing, duckduckgo
+2025-07-29 20:55:44,268 - werkzeug - WARNING -  * Debugger is active!
+2025-07-29 20:55:44,268 - werkzeug - INFO -  * Debugger PIN: 552-305-185
+2025-07-29 20:55:49,548 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:55:49] "GET / HTTP/1.1" 200 -
+2025-07-29 20:55:49,655 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:55:49] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-07-29 20:55:49,788 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:55:49] "GET /static/css/components.css HTTP/1.1" 200 -
+2025-07-29 20:55:49,888 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:55:49] "GET /static/images/logo.png HTTP/1.1" 200 -
+2025-07-29 20:55:49,888 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:55:49] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-07-29 20:55:49,924 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:55:49] "GET /static/js/upload.js HTTP/1.1" 200 -
+2025-07-29 20:55:49,925 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:55:49] "GET /static/js/analysis.js HTTP/1.1" 200 -
+2025-07-29 20:55:53,939 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:55:53] "GET /?segmento=Neuro+educação&produto=&preco=&publico=&objetivo_receita=&orcamento_marketing=&prazo_lancamento=&concorrentes=&query=&dados_adicionais= HTTP/1.1" 200 -
+2025-07-29 20:55:53,956 - routes.analysis - INFO - 🚀 Iniciando análise para segmento: Neuro educação
+2025-07-29 20:55:53,956 - services.enhanced_analysis_engine - INFO - 🚀 Iniciando análise abrangente para Neuro educação
+2025-07-29 20:55:53,957 - services.enhanced_analysis_engine - INFO - 📊 FASE 1: Coleta de dados...
+2025-07-29 20:55:53,957 - services.enhanced_analysis_engine - INFO - 🚀 Ativando motor de análise GIGANTE...
+2025-07-29 20:55:53,957 - services.ultra_detailed_analysis_engine - INFO - 🚀 INICIANDO ANÁLISE GIGANTE ULTRA-DETALHADA
+2025-07-29 20:55:53,958 - services.ultra_detailed_analysis_engine - INFO - 📊 Coletando dados massivos...
+2025-07-29 20:55:53,958 - services.ultra_detailed_analysis_engine - INFO - 🧠 Executando análise ultra-profunda...
+2025-07-29 20:55:53,959 - services.ai_manager - INFO - 🤖 Usando provedor: gemini
+2025-07-29 20:56:05,778 - services.ai_manager - INFO - ✅ Gemini gerou 6107 caracteres
+2025-07-29 20:56:05,778 - services.mental_drivers_architect - INFO - 🧠 Gerando sistema completo de drivers mentais...
+2025-07-29 20:56:05,778 - services.future_prediction_engine - INFO - 🔮 Predizendo futuro do mercado Neuro educação para 60 meses
+2025-07-29 20:56:05,778 - services.enhanced_analysis_engine - ERROR - ❌ Erro na análise abrangente: could not convert string to float: ''
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Nova pasta (3)\Nova pasta\src\services\enhanced_analysis_engine.py", line 53, in generate_comprehensive_analysis
+    gigantic_analysis = ultra_detailed_analysis_engine.generate_gigantic_analysis(data, session_id)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\Nova pasta\src\services\ultra_detailed_analysis_engine.py", line 58, in generate_gigantic_analysis
+    gigantic_report = self._consolidate_gigantic_report(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\Nova pasta\src\services\ultra_detailed_analysis_engine.py", line 687, in _consolidate_gigantic_report
+    "estrategia_pricing_psicologico": self._create_psychological_pricing_strategy(data),
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\Nova pasta\src\services\ultra_detailed_analysis_engine.py", line 1070, in _create_psychological_pricing_strategy
+    preco = float(data.get('preco', 997))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+2025-07-29 20:56:05,794 - services.enhanced_analysis_engine - ERROR - Gerando análise de emergência devido a: could not convert string to float: ''
+2025-07-29 20:56:05,794 - routes.analysis - ERROR - ❌ Erro na análise: name 'search_manager' is not defined
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Nova pasta (3)\Nova pasta\src\services\enhanced_analysis_engine.py", line 53, in generate_comprehensive_analysis
+    gigantic_analysis = ultra_detailed_analysis_engine.generate_gigantic_analysis(data, session_id)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\Nova pasta\src\services\ultra_detailed_analysis_engine.py", line 58, in generate_gigantic_analysis
+    gigantic_report = self._consolidate_gigantic_report(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\Nova pasta\src\services\ultra_detailed_analysis_engine.py", line 687, in _consolidate_gigantic_report
+    "estrategia_pricing_psicologico": self._create_psychological_pricing_strategy(data),
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\Nova pasta\src\services\ultra_detailed_analysis_engine.py", line 1070, in _create_psychological_pricing_strategy
+    preco = float(data.get('preco', 997))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Nova pasta (3)\Nova pasta\src\routes\analysis.py", line 49, in analyze_market
+    analysis_result = enhanced_analysis_engine.generate_comprehensive_analysis(data, session_id)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\Nova pasta\src\services\enhanced_analysis_engine.py", line 98, in generate_comprehensive_analysis
+    return self._generate_fallback_analysis(data, str(e))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Nova pasta (3)\Nova pasta\src\services\enhanced_analysis_engine.py", line 985, in _generate_fallback_analysis
+    "search_providers": search_manager.get_provider_status()
+                        ^^^^^^^^^^^^^^
+NameError: name 'search_manager' is not defined
+2025-07-29 20:56:05,794 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:56:05] "[35m[1mPOST /api/analyze HTTP/1.1[0m" 500 -
+2025-07-29 20:57:05,615 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 20:57:05,616 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 20:57:05,616 - services.ai_manager - INFO - AI Manager inicializado com 2 provedores disponíveis
+2025-07-29 20:57:05,699 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 20:57:05,700 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, bing, duckduckgo
+2025-07-29 20:57:05,700 - services.production_search_manager - WARNING - ⚠️ Provedor serper desabilitado
+2025-07-29 20:57:05,700 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 20:57:05,701 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 20:57:05,701 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 20:57:05,702 - services.search_manager - INFO - Search Manager inicializado com 3 provedores disponíveis
+2025-07-29 20:57:05,702 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 20:57:05,703 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 20:57:05,703 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 20:57:05,703 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 20:57:06,106 - database - INFO - ✅ DatabaseManager inicializado com Supabase
+2025-07-29 20:57:06,229 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 20:57:06,237 - __main__ - INFO - 🔧 Iniciando ARQV30 Enhanced v2.0 em MODO DESENVOLVIMENTO
+2025-07-29 20:57:06,238 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 20:57:06,238 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 20:57:06,238 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 20:57:06,238 - __main__ - INFO - 🔍 Provedores de busca ativos: google, bing, duckduckgo
+2025-07-29 20:57:06,239 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.5:5000
+2025-07-29 20:57:06,239 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-29 20:57:06,239 - werkzeug - INFO -  * Restarting with stat
+2025-07-29 20:57:07,044 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 20:57:07,045 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 20:57:07,046 - services.ai_manager - INFO - AI Manager inicializado com 2 provedores disponíveis
+2025-07-29 20:57:07,134 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 20:57:07,134 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, bing, duckduckgo
+2025-07-29 20:57:07,136 - services.production_search_manager - WARNING - ⚠️ Provedor serper desabilitado
+2025-07-29 20:57:07,142 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 20:57:07,143 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 20:57:07,143 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 20:57:07,144 - services.search_manager - INFO - Search Manager inicializado com 3 provedores disponíveis
+2025-07-29 20:57:07,146 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 20:57:07,147 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 20:57:07,149 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 20:57:07,153 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 20:57:07,569 - database - INFO - ✅ DatabaseManager inicializado com Supabase
+2025-07-29 20:57:07,691 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 20:57:07,700 - __main__ - INFO - 🔧 Iniciando ARQV30 Enhanced v2.0 em MODO DESENVOLVIMENTO
+2025-07-29 20:57:07,701 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 20:57:07,701 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 20:57:07,702 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 20:57:07,703 - __main__ - INFO - 🔍 Provedores de busca ativos: google, bing, duckduckgo
+2025-07-29 20:57:07,708 - werkzeug - WARNING -  * Debugger is active!
+2025-07-29 20:57:07,714 - werkzeug - INFO -  * Debugger PIN: 552-305-185
+2025-07-29 20:57:07,792 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:57:07] "GET / HTTP/1.1" 200 -
+2025-07-29 20:57:07,996 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:57:07] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+2025-07-29 20:57:33,028 - routes.analysis - INFO - 🚀 Iniciando análise para segmento: Telemedicina
+2025-07-29 20:57:33,029 - services.enhanced_analysis_engine - INFO - 🚀 Iniciando análise abrangente para Telemedicina
+2025-07-29 20:57:33,034 - services.enhanced_analysis_engine - INFO - 📊 FASE 1: Coleta de dados...
+2025-07-29 20:57:33,035 - services.enhanced_analysis_engine - INFO - 🚀 Ativando motor de análise GIGANTE...
+2025-07-29 20:57:33,035 - services.ultra_detailed_analysis_engine - INFO - 🚀 INICIANDO ANÁLISE GIGANTE ULTRA-DETALHADA
+2025-07-29 20:57:33,035 - services.ultra_detailed_analysis_engine - INFO - 📊 Coletando dados massivos...
+2025-07-29 20:57:33,035 - services.ultra_detailed_analysis_engine - INFO - 🌐 Executando pesquisa web ultra-profunda...
+2025-07-29 20:57:33,045 - services.search_manager - INFO - 🔍 Buscando em google...
+2025-07-29 20:57:33,257 - services.search_manager - WARNING - ⚠️ Erro em google: Google API retornou status 400
+2025-07-29 20:57:33,259 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 20:57:33,358 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:57:33] "GET /?segmento=Telemedicina&produto=Curso+de+Telemedicina&preco=997&publico=médicos&objetivo_receita=100000&orcamento_marketing=10000&prazo_lancamento=&concorrentes=&query=mercado+brasileiro+desde+2024&dados_adicionais= HTTP/1.1" 200 -
+2025-07-29 20:57:33,957 - services.search_manager - INFO - ✅ Bing Search: 8 resultados
+2025-07-29 20:57:34,959 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 20:57:35,084 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202
+2025-07-29 20:57:36,093 - services.search_manager - INFO - ✅ Multi-search: 8 resultados únicos de 8 totais
+2025-07-29 20:57:36,093 - services.search_manager - INFO - 🔍 Buscando em google...
+2025-07-29 20:57:36,265 - services.search_manager - WARNING - ⚠️ Erro em google: Google API retornou status 400
+2025-07-29 20:57:36,281 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 20:57:36,894 - services.search_manager - INFO - ✅ Bing Search: 8 resultados
+2025-07-29 20:57:37,911 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 20:57:38,020 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202
+2025-07-29 20:57:39,028 - services.search_manager - INFO - ✅ Multi-search: 8 resultados únicos de 8 totais
+2025-07-29 20:57:39,028 - services.search_manager - INFO - 🔍 Buscando em google...
+2025-07-29 20:57:39,216 - services.search_manager - WARNING - ⚠️ Erro em google: Google API retornou status 400
+2025-07-29 20:57:39,216 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 20:57:39,895 - services.search_manager - INFO - ✅ Bing Search: 9 resultados
+2025-07-29 20:57:40,903 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 20:57:41,006 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202
+2025-07-29 20:57:42,013 - services.search_manager - INFO - ✅ Multi-search: 9 resultados únicos de 9 totais
+2025-07-29 20:57:42,013 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 20:57:42,674 - services.search_manager - INFO - ✅ Bing Search: 9 resultados
+2025-07-29 20:57:43,678 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 20:57:43,819 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202
+2025-07-29 20:57:44,824 - services.search_manager - INFO - ✅ Multi-search: 9 resultados únicos de 9 totais
+2025-07-29 20:57:44,824 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 20:57:45,491 - services.search_manager - INFO - ✅ Bing Search: 8 resultados
+2025-07-29 20:57:46,501 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 20:57:46,635 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202
+2025-07-29 20:57:47,637 - services.search_manager - INFO - ✅ Multi-search: 8 resultados únicos de 8 totais
+2025-07-29 20:57:47,637 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 20:57:48,237 - services.search_manager - INFO - ✅ Bing Search: 10 resultados
+2025-07-29 20:57:49,251 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 20:57:49,363 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202
+2025-07-29 20:57:50,365 - services.search_manager - INFO - ✅ Multi-search: 10 resultados únicos de 10 totais
+2025-07-29 20:57:50,366 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 20:57:51,040 - services.search_manager - INFO - ✅ Bing Search: 8 resultados
+2025-07-29 20:57:52,048 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 20:57:52,163 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202
+2025-07-29 20:57:53,166 - services.search_manager - INFO - ✅ Multi-search: 8 resultados únicos de 8 totais
+2025-07-29 20:57:53,166 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 20:57:53,809 - services.search_manager - INFO - ✅ Bing Search: 9 resultados
+2025-07-29 20:57:54,815 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 20:57:54,915 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202
+2025-07-29 20:57:55,926 - services.search_manager - INFO - ✅ Multi-search: 9 resultados únicos de 9 totais
+2025-07-29 20:57:55,926 - services.ultra_detailed_analysis_engine - INFO - 🧠 Executando análise ultra-profunda...
+2025-07-29 20:57:55,928 - services.ai_manager - INFO - 🤖 Usando provedor: gemini
+2025-07-29 20:58:11,404 - services.ai_manager - INFO - ✅ Gemini gerou 8009 caracteres
+2025-07-29 20:58:11,404 - services.mental_drivers_architect - INFO - 🧠 Gerando sistema completo de drivers mentais...
+2025-07-29 20:58:11,404 - services.future_prediction_engine - INFO - 🔮 Predizendo futuro do mercado Telemedicina para 60 meses
+2025-07-29 20:58:11,419 - services.ultra_detailed_analysis_engine - INFO - ✅ ANÁLISE GIGANTE CONCLUÍDA - Relatório de predição do futuro gerado
+2025-07-29 20:58:11,419 - services.enhanced_analysis_engine - INFO - 🧠 Gerando drivers mentais customizados...
+2025-07-29 20:58:11,419 - services.mental_drivers_architect - INFO - 🧠 Gerando sistema completo de drivers mentais...
+2025-07-29 20:58:11,427 - services.enhanced_analysis_engine - INFO - 🔮 Gerando predições do futuro...
+2025-07-29 20:58:11,427 - services.future_prediction_engine - INFO - 🔮 Predizendo futuro do mercado Telemedicina para 60 meses
+2025-07-29 20:58:11,427 - services.enhanced_analysis_engine - INFO - ✅ Análise abrangente concluída em 38.40 segundos
+2025-07-29 20:58:11,505 - database - ERROR - Erro ao criar análise: Illegal header value b'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhhb2pncW1rdHZ4c21pcnl6dXdxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTM2OTA1NjQsImV4cCI6MjA2OTI2NjU2NH0.KMUKDF2XBfJOyNpKTim26Ie1Yr3T00vzIn2zBKR9c6Y\n'
+2025-07-29 20:58:11,505 - routes.analysis - INFO - ✅ Análise concluída em 38.48 segundos
+2025-07-29 20:58:11,505 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 20:58:11] "POST /api/analyze HTTP/1.1" 200 -
+2025-07-29 21:08:27,161 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 21:08:27,161 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 21:08:27,162 - services.ai_manager - INFO - AI Manager inicializado com 2 provedores disponíveis
+2025-07-29 21:08:27,254 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 21:08:27,254 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, bing, duckduckgo
+2025-07-29 21:08:27,255 - services.production_search_manager - WARNING - ⚠️ Provedor serper desabilitado
+2025-07-29 21:08:27,258 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 21:08:27,265 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 21:08:27,265 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 21:08:27,265 - services.search_manager - INFO - Search Manager inicializado com 3 provedores disponíveis
+2025-07-29 21:08:27,266 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 21:08:27,269 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 21:08:27,275 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 21:08:27,275 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 21:08:28,803 - httpx - INFO - HTTP Request: GET https://xaojgqmktvxsmiryzuwq.supabase.co/rest/v1/analyses?select=id&limit=1 "HTTP/1.1 200 OK"
+2025-07-29 21:08:28,848 - database - INFO - ✅ Conexão com Supabase testada com sucesso
+2025-07-29 21:08:28,860 - database - INFO - ✅ Cliente admin Supabase inicializado
+2025-07-29 21:08:28,860 - database - INFO - ✅ DatabaseManager inicializado com Supabase
+2025-07-29 21:08:28,951 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 21:08:28,959 - __main__ - INFO - 🔧 Iniciando ARQV30 Enhanced v2.0 em MODO DESENVOLVIMENTO
+2025-07-29 21:08:28,959 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 21:08:28,960 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 21:08:28,960 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 21:08:28,960 - __main__ - INFO - 🔍 Provedores de busca ativos: google, bing, duckduckgo
+2025-07-29 21:08:28,970 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.5:5000
+2025-07-29 21:08:28,970 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-29 21:08:28,971 - werkzeug - INFO -  * Restarting with stat
+2025-07-29 21:08:29,772 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 21:08:29,772 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 21:08:29,773 - services.ai_manager - INFO - AI Manager inicializado com 2 provedores disponíveis
+2025-07-29 21:08:29,859 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 21:08:29,859 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, bing, duckduckgo
+2025-07-29 21:08:29,860 - services.production_search_manager - WARNING - ⚠️ Provedor serper desabilitado
+2025-07-29 21:08:29,861 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 21:08:29,862 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 21:08:29,862 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 21:08:29,862 - services.search_manager - INFO - Search Manager inicializado com 3 provedores disponíveis
+2025-07-29 21:08:29,863 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 21:08:29,863 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 21:08:29,864 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 21:08:29,864 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 21:08:30,441 - httpx - INFO - HTTP Request: GET https://xaojgqmktvxsmiryzuwq.supabase.co/rest/v1/analyses?select=id&limit=1 "HTTP/1.1 200 OK"
+2025-07-29 21:08:30,444 - database - INFO - ✅ Conexão com Supabase testada com sucesso
+2025-07-29 21:08:30,456 - database - INFO - ✅ Cliente admin Supabase inicializado
+2025-07-29 21:08:30,456 - database - INFO - ✅ DatabaseManager inicializado com Supabase
+2025-07-29 21:08:30,581 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 21:08:30,590 - __main__ - INFO - 🔧 Iniciando ARQV30 Enhanced v2.0 em MODO DESENVOLVIMENTO
+2025-07-29 21:08:30,590 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 21:08:30,591 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 21:08:30,591 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 21:08:30,591 - __main__ - INFO - 🔍 Provedores de busca ativos: google, bing, duckduckgo
+2025-07-29 21:08:30,598 - werkzeug - WARNING -  * Debugger is active!
+2025-07-29 21:08:30,602 - werkzeug - INFO -  * Debugger PIN: 405-250-893
+2025-07-29 21:08:35,469 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 21:08:35] "GET / HTTP/1.1" 200 -
+2025-07-29 21:08:40,659 - routes.analysis - INFO - 🚀 Iniciando análise para segmento: cursos
+2025-07-29 21:08:40,660 - services.enhanced_analysis_engine - INFO - 🚀 Iniciando análise abrangente para cursos
+2025-07-29 21:08:40,661 - services.enhanced_analysis_engine - INFO - 📊 FASE 1: Coleta de dados...
+2025-07-29 21:08:40,662 - services.enhanced_analysis_engine - INFO - 🚀 Ativando motor de análise GIGANTE...
+2025-07-29 21:08:40,662 - services.ultra_detailed_analysis_engine - INFO - 🚀 INICIANDO ANÁLISE GIGANTE ULTRA-DETALHADA
+2025-07-29 21:08:40,663 - services.ultra_detailed_analysis_engine - INFO - 📊 Coletando dados massivos...
+2025-07-29 21:08:40,663 - services.ultra_detailed_analysis_engine - INFO - 🌐 Executando pesquisa web ultra-profunda...
+2025-07-29 21:08:40,664 - services.search_manager - INFO - 🔍 Buscando em google...
+2025-07-29 21:08:40,676 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 21:08:40] "GET /?segmento=cursos&produto=&preco=&publico=&objetivo_receita=&orcamento_marketing=&prazo_lancamento=&concorrentes=&query=&dados_adicionais= HTTP/1.1" 200 -
+2025-07-29 21:08:41,503 - services.search_manager - INFO - ✅ Google Search: 10 resultados
+2025-07-29 21:08:42,506 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 21:08:43,205 - services.search_manager - INFO - ✅ Bing Search: 9 resultados
+2025-07-29 21:08:44,208 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 21:08:44,357 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202 - busca em processamento
+2025-07-29 21:08:45,359 - services.search_manager - INFO - ✅ Multi-search: 19 resultados únicos de 19 totais
+2025-07-29 21:08:45,360 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.insper.edu.br/content/insper-portal/pt/conteudos/tecnologia/mercado-de-tecnologia.html
+2025-07-29 21:08:46,675 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.insper.edu.br/content/insper-portal/pt/conteudos/tecnologia/mercado-de-tecnologia.html: Jina Reader retornou status 402
+2025-07-29 21:08:46,764 - services.content_extractor - WARNING - ⚠️ Estratégia direct_extraction falhou para https://www.insper.edu.br/content/insper-portal/pt/conteudos/tecnologia/mercado-de-tecnologia.html: Resposta HTTP 403
+2025-07-29 21:08:46,834 - services.content_extractor - WARNING - ⚠️ Estratégia readability_extraction falhou para https://www.insper.edu.br/content/insper-portal/pt/conteudos/tecnologia/mercado-de-tecnologia.html: Resposta HTTP 403
+2025-07-29 21:08:46,903 - services.content_extractor - WARNING - ⚠️ Estratégia fallback_extraction falhou para https://www.insper.edu.br/content/insper-portal/pt/conteudos/tecnologia/mercado-de-tecnologia.html: Resposta HTTP 403
+2025-07-29 21:08:46,903 - services.content_extractor - ERROR - ❌ Todas as estratégias falharam para https://www.insper.edu.br/content/insper-portal/pt/conteudos/tecnologia/mercado-de-tecnologia.html
+2025-07-29 21:08:46,904 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://news.microsoft.com/source/latam/features/noticias-da-microsoft/microsoft-e-linkedin-divulgam-o-indice-de-tendencias-de-trabalho-2024-sobre-o-uso-da-ia-no-brasil-e-no-mundo/?lang=pt-br
+2025-07-29 21:08:47,513 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://news.microsoft.com/source/latam/features/noticias-da-microsoft/microsoft-e-linkedin-divulgam-o-indice-de-tendencias-de-trabalho-2024-sobre-o-uso-da-ia-no-brasil-e-no-mundo/?lang=pt-br: Jina Reader retornou status 402
+2025-07-29 21:08:48,025 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 9888 caracteres
+2025-07-29 21:08:48,026 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.jobconvo.com/blog/mercado-de-trabalho-2025/
+2025-07-29 21:08:48,572 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.jobconvo.com/blog/mercado-de-trabalho-2025/: Jina Reader retornou status 402
+2025-07-29 21:08:49,275 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 12039 caracteres
+2025-07-29 21:08:49,275 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.mintel.com/br/
+2025-07-29 21:08:50,121 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.mintel.com/br/: Jina Reader retornou status 402
+2025-07-29 21:08:51,575 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 3330 caracteres
+2025-07-29 21:08:51,576 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://digital.sebraers.com.br/blog/mercado/beleza-em-2025-confira-as-tendencias-para-o-setor/
+2025-07-29 21:08:52,200 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://digital.sebraers.com.br/blog/mercado/beleza-em-2025-confira-as-tendencias-para-o-setor/: Jina Reader retornou status 402
+2025-07-29 21:08:52,510 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 8699 caracteres
+2025-07-29 21:08:53,511 - services.search_manager - INFO - 🔍 Buscando em google...
+2025-07-29 21:08:54,281 - services.search_manager - INFO - ✅ Google Search: 10 resultados
+2025-07-29 21:08:55,282 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 21:08:56,015 - services.search_manager - INFO - ✅ Bing Search: 10 resultados
+2025-07-29 21:08:57,018 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 21:08:57,128 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202 - busca em processamento
+2025-07-29 21:08:58,131 - services.search_manager - INFO - ✅ Multi-search: 19 resultados únicos de 20 totais
+2025-07-29 21:08:58,131 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.robertodiasduarte.com.br/analise-competitiva-e-oportunidades-no-mercado-estrategico-bilionario/
+2025-07-29 21:08:59,281 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.robertodiasduarte.com.br/analise-competitiva-e-oportunidades-no-mercado-estrategico-bilionario/: Jina Reader retornou status 402
+2025-07-29 21:09:02,540 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 7393 caracteres
+2025-07-29 21:09:02,540 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.agendor.com.br/blog/analise-competitiva-de-mercado/
+2025-07-29 21:09:03,171 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.agendor.com.br/blog/analise-competitiva-de-mercado/: Jina Reader retornou status 402
+2025-07-29 21:09:03,503 - services.content_extractor - INFO - ✅ Conteúdo extraído com readability_extraction: 12039 caracteres
+2025-07-29 21:09:03,503 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://pm3.com.br/blog/analise-de-concorrencia-por-onde-comecar/
+2025-07-29 21:09:04,148 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://pm3.com.br/blog/analise-de-concorrencia-por-onde-comecar/: Jina Reader retornou status 402
+2025-07-29 21:09:06,377 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 221 caracteres
+2025-07-29 21:09:06,377 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.coursera.org/learn/analise-oportunidade-blockchain
+2025-07-29 21:09:07,155 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.coursera.org/learn/analise-oportunidade-blockchain: Jina Reader retornou status 402
+2025-07-29 21:09:09,090 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 12039 caracteres
+2025-07-29 21:09:09,090 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://setting.com.br/estrategia/analise-competitiva-de-mercado/
+2025-07-29 21:09:10,193 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://setting.com.br/estrategia/analise-competitiva-de-mercado/: Jina Reader retornou status 402
+2025-07-29 21:09:11,657 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 4707 caracteres
+2025-07-29 21:09:12,657 - services.search_manager - INFO - 🔍 Buscando em google...
+2025-07-29 21:09:13,494 - services.search_manager - INFO - ✅ Google Search: 10 resultados
+2025-07-29 21:09:14,496 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 21:09:15,249 - services.search_manager - INFO - ✅ Bing Search: 10 resultados
+2025-07-29 21:09:16,253 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 21:09:16,382 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202 - busca em processamento
+2025-07-29 21:09:17,386 - services.search_manager - INFO - ✅ Multi-search: 19 resultados únicos de 20 totais
+2025-07-29 21:09:17,386 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.ibge.gov.br/
+2025-07-29 21:09:18,217 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.ibge.gov.br/: Jina Reader retornou status 402
+2025-07-29 21:09:18,662 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 4114 caracteres
+2025-07-29 21:09:18,662 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/43128-ence-abre-curso-sobre-integracao-de-informacoes-estatistica-e-geoespacial
+2025-07-29 21:09:19,505 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/43128-ence-abre-curso-sobre-integracao-de-informacoes-estatistica-e-geoespacial: Jina Reader retornou status 402
+2025-07-29 21:09:19,738 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 4779 caracteres
+2025-07-29 21:09:19,738 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.ibge.gov.br/estatisticas/sociais/saude/22827-censo-demografico-2022.html
+2025-07-29 21:09:20,715 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.ibge.gov.br/estatisticas/sociais/saude/22827-censo-demografico-2022.html: Jina Reader retornou status 402
+2025-07-29 21:09:21,297 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 12039 caracteres
+2025-07-29 21:09:21,297 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://cidades.ibge.gov.br/
+2025-07-29 21:09:22,022 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://cidades.ibge.gov.br/: Jina Reader retornou status 402
+2025-07-29 21:09:22,293 - services.content_extractor - WARNING - ⚠️ Estratégia readability_extraction falhou para https://cidades.ibge.gov.br/: Nenhum conteúdo substancial encontrado
+2025-07-29 21:09:22,448 - services.content_extractor - WARNING - ⚠️ Estratégia fallback_extraction falhou para https://cidades.ibge.gov.br/: Conteúdo insuficiente após limpeza
+2025-07-29 21:09:22,450 - services.content_extractor - ERROR - ❌ Todas as estratégias falharam para https://cidades.ibge.gov.br/
+2025-07-29 21:09:22,450 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.instagram.com/p/DJcLlDmJBss/
+2025-07-29 21:09:23,021 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.instagram.com/p/DJcLlDmJBss/: Jina Reader retornou status 402
+2025-07-29 21:09:24,026 - services.content_extractor - WARNING - ⚠️ Estratégia readability_extraction falhou para https://www.instagram.com/p/DJcLlDmJBss/: Nenhum conteúdo substancial encontrado
+2025-07-29 21:09:24,658 - services.content_extractor - WARNING - ⚠️ Estratégia fallback_extraction falhou para https://www.instagram.com/p/DJcLlDmJBss/: Conteúdo insuficiente após limpeza
+2025-07-29 21:09:24,659 - services.content_extractor - ERROR - ❌ Todas as estratégias falharam para https://www.instagram.com/p/DJcLlDmJBss/
+2025-07-29 21:09:25,660 - services.search_manager - INFO - 🔍 Buscando em google...
+2025-07-29 21:09:26,396 - services.search_manager - INFO - ✅ Google Search: 10 resultados
+2025-07-29 21:09:27,399 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 21:09:28,109 - services.search_manager - INFO - ✅ Bing Search: 10 resultados
+2025-07-29 21:09:29,112 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 21:09:29,242 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202 - busca em processamento
+2025-07-29 21:09:30,244 - services.search_manager - INFO - ✅ Multi-search: 18 resultados únicos de 20 totais
+2025-07-29 21:09:30,245 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.saintpaul.com.br/cursos/educacao-executiva/investment-banking/
+2025-07-29 21:09:31,267 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.saintpaul.com.br/cursos/educacao-executiva/investment-banking/: Jina Reader retornou status 402
+2025-07-29 21:09:31,857 - services.content_extractor - INFO - ✅ Conteúdo extraído com readability_extraction: 12039 caracteres
+2025-07-29 21:09:31,857 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.futurelaw.com.br/cursos/venture-capital
+2025-07-29 21:09:32,553 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.futurelaw.com.br/cursos/venture-capital: Jina Reader retornou status 402
+2025-07-29 21:09:34,425 - services.content_extractor - INFO - ✅ Conteúdo extraído com readability_extraction: 11139 caracteres
+2025-07-29 21:09:34,425 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.learningfornature.org/pt/courses/gef-early-action-support-webinar-series-webinar-11-nature-bonds-catalyzing-investment-for-biodiversity/
+2025-07-29 21:09:34,974 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.learningfornature.org/pt/courses/gef-early-action-support-webinar-series-webinar-11-nature-bonds-catalyzing-investment-for-biodiversity/: Jina Reader retornou status 402
+2025-07-29 21:09:37,839 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 745 caracteres
+2025-07-29 21:09:37,839 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://web.cvent.com/event/d7e62837-1a77-4fff-aef0-65e4c50d9767/summary
+2025-07-29 21:09:38,435 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://web.cvent.com/event/d7e62837-1a77-4fff-aef0-65e4c50d9767/summary: Jina Reader retornou status 402
+2025-07-29 21:09:39,866 - services.content_extractor - WARNING - ⚠️ Estratégia readability_extraction falhou para https://web.cvent.com/event/d7e62837-1a77-4fff-aef0-65e4c50d9767/summary: Nenhum conteúdo substancial encontrado
+2025-07-29 21:09:40,248 - services.content_extractor - WARNING - ⚠️ Estratégia fallback_extraction falhou para https://web.cvent.com/event/d7e62837-1a77-4fff-aef0-65e4c50d9767/summary: Conteúdo insuficiente após limpeza
+2025-07-29 21:09:40,251 - services.content_extractor - ERROR - ❌ Todas as estratégias falharam para https://web.cvent.com/event/d7e62837-1a77-4fff-aef0-65e4c50d9767/summary
+2025-07-29 21:09:40,251 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://modupartners.com.br/product/entrada-em-investment-banking-produto/
+2025-07-29 21:09:41,204 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://modupartners.com.br/product/entrada-em-investment-banking-produto/: Jina Reader retornou status 402
+2025-07-29 21:09:41,903 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 365 caracteres
+2025-07-29 21:09:42,905 - services.search_manager - INFO - 🔍 Buscando em google...
+2025-07-29 21:09:43,379 - services.search_manager - INFO - ✅ Google Search: 10 resultados
+2025-07-29 21:09:44,381 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 21:09:45,148 - services.search_manager - INFO - ✅ Bing Search: 8 resultados
+2025-07-29 21:09:46,151 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 21:09:46,278 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202 - busca em processamento
+2025-07-29 21:09:47,281 - services.search_manager - INFO - ✅ Multi-search: 18 resultados únicos de 18 totais
+2025-07-29 21:09:47,281 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://diariodarepublica.pt/dr/detalhe/portaria/181-d-2015-67552512
+2025-07-29 21:09:48,846 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://diariodarepublica.pt/dr/detalhe/portaria/181-d-2015-67552512: Jina Reader retornou status 402
+2025-07-29 21:09:50,395 - services.content_extractor - WARNING - ⚠️ Estratégia readability_extraction falhou para https://diariodarepublica.pt/dr/detalhe/portaria/181-d-2015-67552512: Nenhum conteúdo substancial encontrado
+2025-07-29 21:09:51,190 - services.content_extractor - WARNING - ⚠️ Estratégia fallback_extraction falhou para https://diariodarepublica.pt/dr/detalhe/portaria/181-d-2015-67552512: Conteúdo insuficiente após limpeza
+2025-07-29 21:09:51,191 - services.content_extractor - ERROR - ❌ Todas as estratégias falharam para https://diariodarepublica.pt/dr/detalhe/portaria/181-d-2015-67552512
+2025-07-29 21:09:51,191 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm
+2025-07-29 21:09:51,944 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm: Jina Reader retornou status 402
+2025-07-29 21:09:53,197 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 12039 caracteres
+2025-07-29 21:09:53,197 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://diariodarepublica.pt/dr/legislacao-consolidada/portaria/2015-123728936
+2025-07-29 21:09:53,865 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://diariodarepublica.pt/dr/legislacao-consolidada/portaria/2015-123728936: Jina Reader retornou status 402
+2025-07-29 21:09:55,205 - services.content_extractor - WARNING - ⚠️ Estratégia readability_extraction falhou para https://diariodarepublica.pt/dr/legislacao-consolidada/portaria/2015-123728936: Nenhum conteúdo substancial encontrado
+2025-07-29 21:09:55,944 - services.content_extractor - WARNING - ⚠️ Estratégia fallback_extraction falhou para https://diariodarepublica.pt/dr/legislacao-consolidada/portaria/2015-123728936: Conteúdo insuficiente após limpeza
+2025-07-29 21:09:55,945 - services.content_extractor - ERROR - ❌ Todas as estratégias falharam para https://diariodarepublica.pt/dr/legislacao-consolidada/portaria/2015-123728936
+2025-07-29 21:09:55,945 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.portalsolar.com.br/lei-14300
+2025-07-29 21:09:56,610 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.portalsolar.com.br/lei-14300: Jina Reader retornou status 402
+2025-07-29 21:09:57,339 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 11093 caracteres
+2025-07-29 21:09:57,339 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11892.htm
+2025-07-29 21:09:58,143 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11892.htm: Jina Reader retornou status 402
+2025-07-29 21:09:58,746 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 12039 caracteres
+2025-07-29 21:09:59,747 - services.search_manager - INFO - 🔍 Buscando em google...
+2025-07-29 21:10:00,394 - services.search_manager - INFO - ✅ Google Search: 10 resultados
+2025-07-29 21:10:01,398 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 21:10:02,090 - services.search_manager - INFO - ✅ Bing Search: 10 resultados
+2025-07-29 21:10:03,093 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 21:10:03,216 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202 - busca em processamento
+2025-07-29 21:10:04,218 - services.search_manager - INFO - ✅ Multi-search: 20 resultados únicos de 20 totais
+2025-07-29 21:10:04,218 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.christenseninstitute.org/publication/ensino-hibrido/
+2025-07-29 21:10:05,145 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.christenseninstitute.org/publication/ensino-hibrido/: Jina Reader retornou status 402
+2025-07-29 21:10:06,297 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 11609 caracteres
+2025-07-29 21:10:06,297 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://maceio.al.gov.br/secretarias-e-orgaos/sedigi
+2025-07-29 21:10:08,627 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://maceio.al.gov.br/secretarias-e-orgaos/sedigi: Jina Reader retornou status 402
+2025-07-29 21:10:09,449 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 2595 caracteres
+2025-07-29 21:10:09,450 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://periodicos.fgv.br/rda/article/view/66659
+2025-07-29 21:10:10,376 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://periodicos.fgv.br/rda/article/view/66659: Jina Reader retornou status 402
+2025-07-29 21:10:11,045 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 3432 caracteres
+2025-07-29 21:10:11,045 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.ifac.edu.br/noticias/2024/agosto/ifac-lanca-edital-complementar-com-vagas-para-curso-de-tecnologias-disruptivas
+2025-07-29 21:10:13,678 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.ifac.edu.br/noticias/2024/agosto/ifac-lanca-edital-complementar-com-vagas-para-curso-de-tecnologias-disruptivas: Jina Reader retornou status 402
+2025-07-29 21:10:14,854 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 2382 caracteres
+2025-07-29 21:10:14,854 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.pucpr.br/wp-content/uploads/2017/10/ensino-hibrido_uma-inovacao-disruptiva.pdf
+2025-07-29 21:10:15,982 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.pucpr.br/wp-content/uploads/2017/10/ensino-hibrido_uma-inovacao-disruptiva.pdf: Jina Reader retornou status 402
+2025-07-29 21:10:27,325 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-07-29 21:10:27,554 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 12039 caracteres
+2025-07-29 21:10:28,555 - services.search_manager - INFO - 🔍 Buscando em google...
+2025-07-29 21:10:28,960 - services.search_manager - INFO - ✅ Google Search: 10 resultados
+2025-07-29 21:10:29,962 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 21:10:30,672 - services.search_manager - INFO - ✅ Bing Search: 9 resultados
+2025-07-29 21:10:31,675 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 21:10:31,801 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202 - busca em processamento
+2025-07-29 21:10:32,803 - services.search_manager - INFO - ✅ Multi-search: 19 resultados únicos de 19 totais
+2025-07-29 21:10:32,803 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://loja.belasartes.br/cursos/imersao-moda-e-comportamento-do-consumidor/
+2025-07-29 21:10:33,932 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://loja.belasartes.br/cursos/imersao-moda-e-comportamento-do-consumidor/: Jina Reader retornou status 402
+2025-07-29 21:10:36,965 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 3294 caracteres
+2025-07-29 21:10:36,966 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.espm.br/cursos/pos-graduacao/doutorado-profissional/doutorado-profissional-em-comportamento-do-consumidor-para-mestres/
+2025-07-29 21:10:37,616 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.espm.br/cursos/pos-graduacao/doutorado-profissional/doutorado-profissional-em-comportamento-do-consumidor-para-mestres/: Jina Reader retornou status 402
+2025-07-29 21:10:43,760 - services.content_extractor - INFO - ✅ Conteúdo extraído com readability_extraction: 12039 caracteres
+2025-07-29 21:10:43,761 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.ua.pt/pt/curso/1652
+2025-07-29 21:10:44,745 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.ua.pt/pt/curso/1652: Jina Reader retornou status 402
+2025-07-29 21:10:47,999 - services.content_extractor - WARNING - ⚠️ Estratégia readability_extraction falhou para https://www.ua.pt/pt/curso/1652: Nenhum conteúdo substancial encontrado
+2025-07-29 21:10:49,363 - services.content_extractor - WARNING - ⚠️ Estratégia fallback_extraction falhou para https://www.ua.pt/pt/curso/1652: Conteúdo insuficiente após limpeza
+2025-07-29 21:10:49,365 - services.content_extractor - ERROR - ❌ Todas as estratégias falharam para https://www.ua.pt/pt/curso/1652
+2025-07-29 21:10:49,365 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.unijui.edu.br/comunica/cursos/109-presencial/138-administracao-bacharelado/27835-administracao-pesquisas-por-observacao-avaliam-o-comportamento-do-consumidor-no-varejo
+2025-07-29 21:10:50,392 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.unijui.edu.br/comunica/cursos/109-presencial/138-administracao-bacharelado/27835-administracao-pesquisas-por-observacao-avaliam-o-comportamento-do-consumidor-no-varejo: Jina Reader retornou status 402
+2025-07-29 21:10:51,544 - services.content_extractor - INFO - ✅ Conteúdo extraído com readability_extraction: 5402 caracteres
+2025-07-29 21:10:51,544 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://faculdade.grancursosonline.com.br/blog/comportamento-do-consumidor/
+2025-07-29 21:10:52,245 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://faculdade.grancursosonline.com.br/blog/comportamento-do-consumidor/: Jina Reader retornou status 402
+2025-07-29 21:10:53,386 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 10474 caracteres
+2025-07-29 21:10:54,387 - services.search_manager - INFO - 🔍 Buscando em google...
+2025-07-29 21:10:55,033 - services.search_manager - INFO - ✅ Google Search: 10 resultados
+2025-07-29 21:10:56,035 - services.search_manager - INFO - 🔍 Buscando em bing...
+2025-07-29 21:10:56,784 - services.search_manager - INFO - ✅ Bing Search: 8 resultados
+2025-07-29 21:10:57,786 - services.search_manager - INFO - 🔍 Buscando em duckduckgo...
+2025-07-29 21:10:57,902 - services.search_manager - WARNING - ⚠️ DuckDuckGo retornou status 202 - busca em processamento
+2025-07-29 21:10:58,905 - services.search_manager - INFO - ✅ Multi-search: 15 resultados únicos de 18 totais
+2025-07-29 21:10:58,905 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://distrito.me/blog/lista-dos-unicornios-brasileiros/
+2025-07-29 21:10:59,950 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://distrito.me/blog/lista-dos-unicornios-brasileiros/: Jina Reader retornou status 402
+2025-07-29 21:11:01,757 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 10330 caracteres
+2025-07-29 21:11:01,758 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://troposlab.com/lista-startups-uniconio-brasileiras/
+2025-07-29 21:11:02,328 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://troposlab.com/lista-startups-uniconio-brasileiras/: Jina Reader retornou status 402
+2025-07-29 21:11:03,012 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 10055 caracteres
+2025-07-29 21:11:03,012 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://www.canalsonhogrande.com.br/post/primeiras-startups-brasileiras-unicornios
+2025-07-29 21:11:03,693 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://www.canalsonhogrande.com.br/post/primeiras-startups-brasileiras-unicornios: Jina Reader retornou status 402
+2025-07-29 21:11:04,247 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 10001 caracteres
+2025-07-29 21:11:04,247 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://dialnet.unirioja.es/descarga/articulo/9279314.pdf
+2025-07-29 21:11:05,039 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://dialnet.unirioja.es/descarga/articulo/9279314.pdf: Jina Reader retornou status 402
+2025-07-29 21:11:11,422 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-07-29 21:11:11,508 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 12039 caracteres
+2025-07-29 21:11:11,509 - services.content_extractor - INFO - 🔍 Extraindo conteúdo de: https://grupoinvestor.com.br/startups-unicornio-o-que-sao/
+2025-07-29 21:11:12,572 - services.content_extractor - WARNING - ⚠️ Estratégia jina_reader falhou para https://grupoinvestor.com.br/startups-unicornio-o-que-sao/: Jina Reader retornou status 402
+2025-07-29 21:11:15,863 - services.content_extractor - INFO - ✅ Conteúdo extraído com direct_extraction: 7029 caracteres
+2025-07-29 21:11:16,864 - services.ultra_detailed_analysis_engine - INFO - 📊 Dados coletados: 147 resultados, 33 páginas extraídas
+2025-07-29 21:11:16,864 - services.ultra_detailed_analysis_engine - INFO - 🧠 Executando análise ultra-profunda...
+2025-07-29 21:11:16,865 - services.ai_manager - INFO - 🤖 Usando provedor: gemini
+2025-07-29 21:11:20,940 - services.ai_manager - INFO - ✅ Gemini gerou 1735 caracteres
+2025-07-29 21:11:20,940 - services.ultra_detailed_analysis_engine - INFO - ✨ Gerando insights únicos...
+2025-07-29 21:11:20,941 - services.ultra_detailed_analysis_engine - INFO - ✅ ANÁLISE GIGANTE CONCLUÍDA - Relatório de predição do futuro gerado
+2025-07-29 21:11:20,942 - services.enhanced_analysis_engine - INFO - 🧠 Gerando drivers mentais customizados...
+2025-07-29 21:11:20,942 - services.mental_drivers_architect - INFO - 🧠 Gerando sistema completo de drivers mentais...
+2025-07-29 21:11:20,942 - services.enhanced_analysis_engine - INFO - 🔮 Gerando predições do futuro...
+2025-07-29 21:11:20,942 - services.future_prediction_engine - INFO - 🔮 Predizendo futuro do mercado cursos para 60 meses
+2025-07-29 21:11:20,943 - services.enhanced_analysis_engine - INFO - ✅ Análise abrangente concluída em 160.28 segundos
+2025-07-29 21:11:21,540 - httpx - INFO - HTTP Request: POST https://xaojgqmktvxsmiryzuwq.supabase.co/rest/v1/analyses "HTTP/1.1 400 Bad Request"
+2025-07-29 21:11:21,540 - database - ERROR - Erro ao criar análise: {'code': 'PGRST204', 'details': None, 'hint': None, 'message': "Could not find the 'avatar_data' column of 'analyses' in the schema cache"}
+2025-07-29 21:11:21,541 - routes.analysis - INFO - ✅ Análise concluída em 160.88 segundos
+2025-07-29 21:11:21,547 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 21:11:21] "POST /api/analyze HTTP/1.1" 200 -
+2025-07-29 22:11:35,309 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 22:11:35,309 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 22:11:35,310 - services.ai_manager - INFO - AI Manager inicializado com 2 provedores disponíveis
+2025-07-29 22:11:35,399 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 22:11:35,399 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, bing, duckduckgo
+2025-07-29 22:11:35,400 - services.production_search_manager - WARNING - ⚠️ Provedor serper desabilitado
+2025-07-29 22:11:35,403 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 22:11:35,410 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 22:11:35,410 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 22:11:35,410 - services.search_manager - INFO - Search Manager inicializado com 3 provedores disponíveis
+2025-07-29 22:11:35,411 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 22:11:35,414 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 22:11:35,420 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 22:11:35,420 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 22:11:36,654 - httpx - INFO - HTTP Request: GET https://xaojgqmktvxsmiryzuwq.supabase.co/rest/v1/analyses?select=id&limit=1 "HTTP/1.1 200 OK"
+2025-07-29 22:11:36,699 - database - INFO - ✅ Conexão com Supabase testada com sucesso
+2025-07-29 22:11:36,711 - database - INFO - ✅ Cliente admin Supabase inicializado
+2025-07-29 22:11:36,711 - database - INFO - ✅ DatabaseManager inicializado com Supabase
+2025-07-29 22:11:36,880 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
